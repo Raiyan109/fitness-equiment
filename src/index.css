@@ -18,7 +18,7 @@ body {
 
 @layer base {
     h1 {
-        @apply text-7xl font-anton uppercase tracking-wide;
+        @apply text-8xl font-anton uppercase leading-tight tracking-wide;
     }
 
     h2 {
@@ -34,12 +34,12 @@ body {
     }
 
     h5 {
-        @apply text-xl font-roboto
+        @apply text-sm font-roboto
     }
 }
 
 @layer components {
-    .btn-blue {
-        @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+    .btn-orange {
+        @apply bg-orange hover:bg-orange/80 text-white tracking-widest font-roboto text-3xl uppercase font-semibold py-4 px-7 rounded-full;
     }
 }

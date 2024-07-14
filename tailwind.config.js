@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        black: '#000000',
+        orange: '#FCA311',
+        gray: '#E5E5E5',
+        white: '#FFFFFF',
+        blue: '#14213D'
+      },
+      fontFamily: {
+        anton: "",
+        roboto: 'roboto'
+      },
+    },
   },
   plugins: [],
 }

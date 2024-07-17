@@ -18,15 +18,15 @@ body {
 
 @layer base {
     h1 {
-        @apply text-8xl font-anton uppercase leading-tight tracking-wide;
+        @apply text-5xl lg:text-8xl font-anton uppercase leading-tight lg:leading-tight tracking-wide;
     }
 
     h2 {
-        @apply text-5xl font-anton;
+        @apply text-3xl lg:text-5xl font-anton;
     }
 
     h3 {
-        @apply text-2xl lg:text-4xl
+        @apply text-xl md:text-2xl lg:text-4xl
     }
 
     h4 {
@@ -34,12 +34,12 @@ body {
     }
 
     h5 {
-        @apply text-sm font-roboto
+        @apply text-xs lg:text-sm font-roboto
     }
 }
 
 @layer components {
     .btn-orange {
-        @apply bg-orange hover:bg-orange/80 text-white tracking-widest font-roboto text-3xl uppercase font-semibold py-4 px-7 rounded-full;
+        @apply bg-orange hover:bg-orange/80 text-white tracking-widest font-roboto text-2xl lg:text-3xl uppercase font-semibold py-2 px-5 lg:py-4 lg:px-7 rounded-full;
     }
 }

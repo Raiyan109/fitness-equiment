@@ -62,13 +62,15 @@ const Carousel = () => {
 
 
     return (
-        <div className="py-32">
+        <div className="py-32 space-y-2 lg:space-y-10">
+            <h2 className="pb-3 text-white pl-4 lg:pl-8 max-w-xs lg:max-w-none">Facilities at fitness rhinos</h2>
+            <h5 className='text-white/80 max-w-sm pl-4 lg:pl-8'>our facilities help you to get the maximum exercise and experience in the gym</h5>
             <Slider {...settings}>
                 {data.map((item, idx) => (
                     <div key={idx} id='slider-boxes' className='bg-[#353535] rounded-[50px] gap-5 p-10 flex flex-col justify-center items-end h-56 lg:h-80' >
                         <h2 className='text-white opacity-40 '>{item.icon}</h2>
                         <h2 className='text-white'>{item.title}</h2>
-                        <h5 className='text-white/80 max-w-[230px] item-pr'>{item.paragraph}</h5>
+                        <h5 className='text-white/80 max-w-[230px]'>{item.paragraph}</h5>
                     </div>
                 ))}
             </Slider>

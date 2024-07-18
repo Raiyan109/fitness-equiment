@@ -22,7 +22,7 @@ body {
     }
 
     h2 {
-        @apply text-3xl lg:text-5xl font-anton;
+        @apply text-3xl lg:text-7xl font-anton;
     }
 
     h3 {
@@ -34,7 +34,7 @@ body {
     }
 
     h5 {
-        @apply text-xs lg:text-sm font-roboto
+        @apply text-xs lg:text-sm font-roboto capitalize
     }
 }
 
@@ -45,46 +45,6 @@ body {
 }
 
 /* Slick css styles */
-/* .slick-slide>div {
-    margin: 0 10px;
-    display: flex;
-
-} */
-/* .slick-slide div {
-    display: flex !important;
-    flex-direction: column;
-    justify-content: center;
-    align-items: end;
-    margin: 0 10px;
-    height: 400px;
-    width: 500px;
-
-
-}
-
-
-@media only screen and (max-width: 600px) {
-    .slick-slide div h1 {
-
-        font-size: 20px;
-    }
-
-    .slick-slide div {
-        overflow: hidden;
-        margin: 0 100px;
-        height: 400px;
-        width: 500px;
-    }
-} */
-
-/* .slick-dots li.slick-active button:before {
-    color: #881798;
-  }
-  
-  .slick-prev:before,
-  .slick-next:before {
-    color: #881798;
-  } */
 
 
 #slider-boxes {

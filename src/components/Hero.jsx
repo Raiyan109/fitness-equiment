@@ -1,10 +1,10 @@
-import { FaStarOfLife } from "react-icons/fa";
+
 import { CgGym } from "react-icons/cg";
 import burble from '../assets/burble.jpg'
-import punchBag from '../assets/punch-bag.jpg'
+// import punchBag from '../assets/punch-bag.jpg'
 const Hero = () => {
     return (
-        <div className="bg-gray mx-5 lg:mx-20 my-2 lg:my-2 rounded-2xl py-7 px-6 lg:px-16">
+        <div className="bg-gray  my-2 lg:my-2 rounded-2xl py-7 px-6 lg:px-16 max-h-[calc(100%-40px)]">
             <h4 className="pb-3">Make your body fit this spring with us.</h4>
             <div className="border-b "></div>
             <div className="flex gap-8 flex-col md:flex-row">

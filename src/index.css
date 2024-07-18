@@ -43,3 +43,82 @@ body {
         @apply bg-orange hover:bg-orange/80 text-white tracking-widest font-roboto text-2xl lg:text-3xl uppercase font-semibold py-2 px-5 lg:py-4 lg:px-7 rounded-full;
     }
 }
+
+/* Slick css styles */
+/* .slick-slide>div {
+    margin: 0 10px;
+    display: flex;
+
+} */
+/* .slick-slide div {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin: 0 10px;
+    height: 400px;
+    width: 500px;
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .slick-slide div h1 {
+
+        font-size: 20px;
+    }
+
+    .slick-slide div {
+        overflow: hidden;
+        margin: 0 100px;
+        height: 400px;
+        width: 500px;
+    }
+} */
+
+/* .slick-dots li.slick-active button:before {
+    color: #881798;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #881798;
+  } */
+
+
+#slider-boxes {
+    display: flex !important;
+}
+
+.slick-slide div {
+    margin: 10px;
+}
+
+.slick-arrow::before {
+    color: orange;
+    font-size: 50px;
+}
+
+.slick-prev {
+    top: -60px;
+    left: 1570px;
+}
+
+.slick-next {
+    right: 70px;
+    top: -60px;
+}
+
+@media only screen and (max-width: 600px) {
+    .slick-prev {
+        top: -60px;
+        left: 340px;
+        z-index: 10;
+    }
+
+    .slick-next {
+        right: 26px;
+        top: -60px;
+    }
+}
